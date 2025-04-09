@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel CAS - Sua estadia perfeita</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    Hotel <span>CAS</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#">Início</a>
+                    <a href="#">Quartos</a>
+                    <a href="#">Serviços</a>
+                    <a href="#">Galeria</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contato</a>
+                </div>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline">Entrar</a>
+                    <a href="#" class="btn btn-primary">Reservar</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Descubra o conforto</h1>
+            <p>Experimente uma das melhores hospitalidades do mundo com o Hotel CAS - onde luxo encontra tradição</p>
+            <a href="#" class="btn btn-primary">Reserve Agora</a>
+        </div>
+    </section>
+
+    <!-- Search Form -->
+    <div class="container">
+        <div class="search-form">
+            <h3>Encontre sua acomodação perfeita</h3>
+            <form>
+                <div class="search-grid">
+                    <div class="form-group">
+                        <label for="check-in">Check-in</label>
+                        <input type="date" id="check-in" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out">Check-out</label>
+                        <input type="date" id="check-out" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="adults">Adultos</label>
+                        <select id="adults">
+                            <option value="1">1 Adulto</option>
+                            <option value="2" selected>2 Adultos</option>
+                            <option value="3">3 Adultos</option>
+                            <option value="4">4+ Adultos</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="children">Crianças</label>
+                        <select id="children">
+                            <option value="0" selected>Sem crianças</option>
+                            <option value="1">1 Criança</option>
+                            <option value="2">2 Crianças</option>
+                            <option value="3">3+ Crianças</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="search-btn">Buscar Disponibilidade</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Por que escolher o Hotel CAS</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3>Quartos de Luxo</h3>
+                    <p>Nossos quartos são projetados para máximo conforto, com decoração elegante e todas as comodidades modernas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Gastronomia Premium</h3>
+                    <p>Restaurante com os melhores pratos da culinária angolana e internacional, preparados por chefs renomados.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Serviço Excepcional</h3>
+                    <p>Nossa equipe treinada está disponível 24 horas para garantir que sua estadia seja inesquecível.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Localização Privilegiada</h3>
+                    <p>Situado no coração de Luanda, com fácil acesso aos principais pontos turísticos e comerciais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Highlights -->
+    <section class="properties">
+        <div class="container">
+            <h2 class="section-title">Nossos Melhores Quartos</h2>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-img" style="background-image: url('https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');">
+                        <div class="property-badge">Premium</div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">Suíte Presidencial</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> 5º Andar, Vista para o mar
+                        </div>
+                        <div class="property-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(28 avaliações)</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="property-feature">
+                                <i class="fas fa-bed"></i> 1 Cama King
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-users"></i> 2 Adultos
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-vector-square"></i> 75m²
+                            </div>
+                        </div>
+                        <div class="property-price">
+                            Kz 85.000 <span>/noite</span>
+                            <a href="#" class="property-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-img" style="background-image: url('https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');">
+                        <div class="property-badge">Popular</div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">Suíte Executiva</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> 3º Andar, Vista para a cidade
+                        </div>
+                        <div class="property-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42 avaliações)</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="property-feature">
+                                <i class="fas fa-bed"></i> 1 Cama Queen
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-users"></i> 2 Adultos
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-vector-square"></i> 45m²
+                            </div>
+                        </div>
+                        <div class="property-price">
+                            Kz 45.000 <span>/noite</span>
+                            <a href="#" class="property-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-img" style="background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                        <div class="property-badge">Família</div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">Quarto Família</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> 2º Andar, Vista para o jardim
+                        </div>
+                        <div class="property-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(35 avaliações)</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="property-feature">
+                                <i class="fas fa-bed"></i> 2 Camas Queen
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-users"></i> 4 Pessoas
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-vector-square"></i> 60m²
+                            </div>
+                        </div>
+                        <div class="property-price">
+                            Kz 55.000 <span>/noite</span>
+                            <a href="#" class="property-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O que dizem nossos hóspedes</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">O Hotel CAS superou todas as minhas expectativas. As instalações são impecáveis, os quartos confortáveis e o atendimento do staff é excepcional. Sem dúvidas, a melhor hospedagem que tive em Angola!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <div class="author-name">Santa da Silva</div>
+                            <div class="author-title">Empresária, Angola</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Viajo frequentemente a trabalho e já me hospedei em diversos hotéis pelo mundo. O Hotel CAS se destaca pela sua localização estratégica e pelo cuidado com os detalhes. O café da manhã é simplesmente delicioso!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <div class="author-name">Artur Líssimo</div>
+                            <div class="author-title">Engenheiro, Portugal</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Minha família e eu passamos uma semana maravilhosa no Hotel CAS. As crianças adoraram a piscina e nós, a comida incrível. A equipe foi muito atenciosa e nos ajudou a planejar passeios pela cidade. Certamente voltaremos!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <div class="author-name">Carolina Mateus</div>
+                            <div class="author-title">Advogada, Angola</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Conheça nossas instalações</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Lobby" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Lobby Elegante</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Restaurante" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Restaurante Gourmet</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80" alt="Piscina" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Piscina Exterior</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Spa" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Spa Relaxante</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1635350485940-187e1abb7072?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Sala de Conferências" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Sala de Conferências</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1562778612-e1e0cda9915c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Academia" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Academia Moderna</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Bar" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bar Premium</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565031491910-e57c801b4f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Vista da Cidade" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Vista Panorâmica</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Viva uma experiência inesquecível em Angola</h2>
+            <p>Reserve sua estadia no Hotel CAS e descubra o verdadeiro significado do conforto e hospitalidade. Oferecemos as melhores condições para sua viagem a negócios ou lazer.</p>
+            <a href="#" class="cta-btn">Reserve Com Desconto Exclusivo</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="https://via.placeholder.com/150x50" alt="Hotel CAS Logo">
+                    </div>
+                    <div class="footer-about">
+                        <p>O Hotel CAS é um refúgio de luxo no coração de Angola, combinando conforto moderno com a calorosa hospitalidade angolana. Nosso compromisso é proporcionar experiências inesquecíveis a cada hóspede.</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Quartos e Suítes</a></li>
+                        <li><a href="#">Restaurante</a></li>
+                        <li><a href="#">Facilidades</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Ofertas Especiais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informações Úteis</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="#">Política de Cancelamento</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contate-nos</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Av. 4 de Fevereiro, Luanda, Angola</li>
+                        <li><i class="fas fa-phone"></i> +244 923 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@hotelcas.co.ao</li>
+                        <li><i class="fas fa-clock"></i> Check-in: 14:00 | Check-out: 12:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hotel CAS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/244923456789" class="float-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
